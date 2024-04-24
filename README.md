@@ -11,3 +11,9 @@
  Equação: ``ax² + bx + c = 0``
  Delta: ``b² - 4 * a * c``
  Bhaskara: ``x = -b +- √Δ / 2*a``
+
+### Pontos
+```javascript
+ const raiz = Math.sqrt(delta)
+```
+Neste trecho de código
