@@ -12,8 +12,8 @@
  Delta: ``b² - 4 * a * c``
  Bhaskara: ``x = -b +- √Δ / 2*a``
 
-### Pontos
+### Pontos:
 ```javascript
  const raiz = Math.sqrt(delta)
 ```
-Neste trecho de código
+A função ``Math.sqrt()`` é utilizada pra calcular a raiz quadradada de um número, mas como ela calcula? Ela utiliza métodos e algoritmos, tais conhecidos como; Método de Newton-Raphson [Saiba Mais](https://pt.wikipedia.org/wiki/M%C3%A9todo_de_Newton%E2%80%93Raphson) e o Algoritmo de Babilônia [Babylonian Method](https://en.wikipedia.org/wiki/Methods_of_computing_square_roots). O resultado fornecido pela função, na verdade é uma aproximação do valor real da raiz quadradada, o computador não calcula a raiz quadrada exata no sentido matemático rigoroso, ele nos dá um valor muito próximo do valor real da raiz quadrada.
