@@ -5,9 +5,9 @@ const rl = readline.createInterface({ // cria uma interface com entrada e saida 
     output: process.stdout
 })
 
-rl.question("Digite um valor: ", (valor1) => { // pergunta 3 valores no console para o usuario e guarda essas informações na função calculaSegundoGrau()
-    rl.question("Digite mais um valor: ", (valor2) => {
-        rl.question("Digite um ultimo valor pra calcular a equação: ", (valor3) => {
+rl.question("Informe o valor de A: ", (valor1) => { // pergunta 3 valores no console para o usuario e guarda essas informações na função calculaSegundoGrau()
+    rl.question("Informe o valor de B: ", (valor2) => {
+        rl.question("Informe o valor de C: ", (valor3) => {
             calculaSegundoGrau(valor1, valor2, valor3) // armazena os valores pra ser utilizada na função
             rl.close(); // fim das perguntas
         }) 
