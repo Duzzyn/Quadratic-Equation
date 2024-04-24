@@ -10,4 +10,4 @@
  ### Fórmulas
  Equação: ``ax² + bx + c = 0``
  Delta: ``b² - 4 * a * c``
- Bhaskara: ``x = -b +- √Δ - 4*a*c / 2*a``
+ Bhaskara: ``x = -b +- √Δ / 2*a``
