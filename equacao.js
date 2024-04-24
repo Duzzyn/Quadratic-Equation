@@ -1,6 +1,3 @@
-// equação do segundo grau = ax² + bx + c = 0
-// delta: b² - 4 . a . c
-// x: -b +- Raiz de Delta / 2.a
 const readline = require("node:readline");
 
 const rl = readline.createInterface({ // cria uma interface com entrada e saida de dados.
